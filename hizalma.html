@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <body>
+        <h1>Form Elemanlarını Tablo ile Hizalama</h1>
+        <form name="kayit" action="kayit.aspx" method="get">
+            <table frame="border" rules="all">
+
+            <tr>
+                <td>Ad Soyad: </td>
+                <td><input type="text" name="kullanici_adi" required></td>
+
+            </tr>
+
+            <tr>
+
+                <td>Şifre: </td><td><input type="password" name="sifre" maxlength="6" minlength="6" required></td>
+
+            </tr>
+
+            <tr>
+
+                <td></td><td align="right"><input type="submit" value="Gönder"> <input type="reset" value="Temizle"></td>
+            </tr>
+            
+            </table>
+        </form>
+    </body>
+    </head>
+</html>
